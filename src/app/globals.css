@@ -2135,8 +2135,14 @@ button {
   }
 
   .contact-details {
-    align-items: center;
-    width: 100%;
+    /* Keep the block left-aligned internally but center the entire block on the screen */
+    width: fit-content;
+    margin: 0 auto;
+    align-items: flex-start;
+  }
+
+  .contact-detail {
+    text-align: left;
   }
 
   /* Wrap the contact tag */
@@ -2164,11 +2170,11 @@ button {
     gap: 1.5rem;
   }
 
-  /* Force long emails to wrap so they do not break grid boundary */
+  /* Force long emails to fit on modern screens */
   .contact-detail-value {
-    overflow-wrap: anywhere;
-    word-break: normal;
-    text-align: center;
+    word-break: break-word; /* Gentler break than anywhere/break-all */
+    font-size: 0.9375rem;
+    text-align: left;
   }
 
   /* Final CTA */
