@@ -103,7 +103,7 @@ button {
   font-family: var(--font-outfit);
   font-size: clamp(2.5rem, 6vw, 5rem);
   font-weight: 900;
-  line-height: 1.05;
+  line-height: 1.15;
   letter-spacing: -0.03em;
 }
 
@@ -2123,6 +2123,11 @@ button {
     width: 100%;
     justify-content: center;
   }
+
+  /* Utility to hide elements on mobile */
+  .hidden-mobile {
+    display: none !important;
+  }
 }
 
 /* ============================================
@@ -2141,6 +2146,12 @@ button {
   .navbar-logo img,
   .navbar-logo Image {
     height: 40px !important;
+    width: auto !important;
+  }
+
+  /* Form single column forced */
+  .form-grid {
+    grid-template-columns: 1fr !important;
   }
 
   .stats-grid {

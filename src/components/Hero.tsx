@@ -69,7 +69,7 @@ export default function Hero() {
 
         {/* Headline */}
         <h1 className="display-xl hero-headline animate-fade-up animate-delay-1">
-          Premium Flooring & Tile <br />
+          Premium Flooring & Tile <br className="hidden-mobile" />
           <span className="accent">at Warehouse Prices</span>
         </h1>
 
