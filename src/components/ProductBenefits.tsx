@@ -92,7 +92,7 @@ export default function ProductBenefits() {
 
             {/* Second floating badge */}
             <div
-              className="floating"
+              className="benefits-float-badge-top floating"
               style={{
                 position: 'absolute',
                 top: '1.5rem',
