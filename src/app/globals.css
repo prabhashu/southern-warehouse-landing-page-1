@@ -1377,7 +1377,7 @@ button {
 }
 
 .faq-item.open .faq-answer {
-  max-height: 200px;
+  max-height: 600px;
 }
 
 .faq-answer-inner {

@@ -66,8 +66,6 @@ export default function FAQ() {
               key={faq.id}
               id={faq.id}
               className={`faq-item ${openIndex === i ? 'open' : ''}`}
-              data-animate
-              data-delay={`${i * 80}`}
             >
               <button
                 className="faq-question"
