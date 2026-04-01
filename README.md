@@ -211,14 +211,20 @@ Before going live, update the following placeholder values:
 
 ## 📜 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
+This project is **proprietary software**.
+
+© 2026 **MIV Software Solutions**. All Rights Reserved.
+
+Unauthorized copying, distribution, modification, or use of this software,
+via any medium, is strictly prohibited without prior written permission from
+MIV Software Solutions. See the [LICENSE](./LICENSE) file for full terms.
 
 ---
 
 ## 🙏 Credits
 
-- **Design & Development:** Built with [Antigravity AI](https://antigravity.ai)
-- **Photography:** [Unsplash](https://unsplash.com) (placeholder images — replace with real showroom photos)
+- **Design & Development:** Prabhashu Samarakkodi
+- **Photography:** [Unsplash](https://unsplash.com)
 - **Icons:** [Lucide React](https://lucide.dev/)
 - **Fonts:** [Google Fonts](https://fonts.google.com/) — Outfit & Inter
 
