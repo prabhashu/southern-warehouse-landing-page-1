@@ -1924,8 +1924,15 @@ button {
   }
 
   /* Hero */
+  .hero {
+    min-height: 100vh;
+    min-height: 100svh;
+    align-items: flex-start;
+    padding-top: 6rem;
+  }
+
   .hero-content {
-    padding: 6rem 0 3rem;
+    padding: 2rem 0 4rem;
   }
 
   .hero-headline {
