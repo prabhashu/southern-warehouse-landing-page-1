@@ -58,7 +58,7 @@ export default function ContactSection() {
         <div className="contact-grid">
           {/* Left: Info */}
           <div className="contact-info" data-animate-left>
-            <div style={{ marginBottom: '0.75rem' }}>
+            <div className="contact-tag-wrapper">
               <span className="section-tag">Contact Us</span>
             </div>
             <h2 id="contact-heading" className="display-md contact-info-title">
@@ -96,12 +96,7 @@ export default function ContactSection() {
             </div>
 
             {/* Hours */}
-            <div style={{
-              background: 'rgba(45,82,51,0.06)',
-              border: '1px solid rgba(45,82,51,0.15)',
-              borderRadius: 'var(--radius-md)',
-              padding: '1.25rem 1.5rem',
-            }}>
+            <div className="showroom-hours-box">
               <h3 style={{ fontFamily: 'var(--font-outfit)', fontSize: '1rem', fontWeight: 700, color: 'var(--charcoal)', marginBottom: '0.75rem' }}>
                 Showroom Hours
               </h3>
